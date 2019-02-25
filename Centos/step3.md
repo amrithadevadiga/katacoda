@@ -1,9 +1,9 @@
 To add your organisation name to the build, run the following command:
 
 Here we have used
-Organization name as BlueData
+Organization name as bluedata
 
-`export BASE_IMG_ORGNAME='BlueData'`{{execute}}
+`export BASE_IMG_ORGNAME='bluedata'`{{execute}}
 
 To identify your build, you add a build version to image. To do so run the following command:
 
