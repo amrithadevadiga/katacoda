@@ -5,11 +5,13 @@
   "time": "10 minutes",
   "details": {
     "steps": [
-     { "title": "Step 1 - Creating and navigating to base image directory ","text": "step1.md"},
-     { "title": "Step 2 - Retriveing base image for CentOS 7 ","text": "step2.md"},
-     { "title": "Step 3 - Exporting CentOS 7 base image ","text": "step3.md"},
-     { "title": "Step 4 - Creating CentOS 7 base image ","text": "step4.md"},
-     { "title": "Step 5 - Verifying the created CentOS 7 base image ","text": "step5.md"}
+     { "title": "Step 1 - Intro To BlueData Application Workbench. ","text": "steIntroduction
+     { "title": "Step 2 - Application Classification and Integration Patterns ","text": "step2.md"},
+     { "title": "Step 3 - installation of App work bench ","text": "step3.md"},
+     { "title": "Step 4 - Application Design Considerations  ","text": "step4.md"},
+      { "title": "Step 5 - Application Application Lifecycle  ","text": "step5.md"},
+      { "title": "Step 6 - Cluster Deployment Lifecycle  ","text": "step6.md"},
+     { "title": "Step 5 - Build a simple application","text": "step5.md"}
             ],
     "intro": {
       "text": "intro.md",
