@@ -11,7 +11,7 @@
      { "title": "Step 4 - Application Design Considerations  ","text": "step4.md"},
       { "title": "Step 5 - Application Application Lifecycle  ","text": "step5.md"},
       { "title": "Step 6 - Cluster Deployment Lifecycle  ","text": "step6.md"},
-     { "title": "Step 5 - Build a simple application","text": "step5.md"}
+     { "title": "Step 7 - build a custom CentOS 6.x base image:","text": "step7.md"}
             ],
     "intro": {
       "text": "intro.md",
