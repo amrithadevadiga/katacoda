@@ -28,7 +28,7 @@
     
   },
   "backend": {
-    "imageid": "centos-vm"
+    "imageid": "ubuntu"
   }
 }
 
