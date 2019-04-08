@@ -10,19 +10,19 @@ Note: Install java, Spark, Webssh on all nodes
 
 1. Download scripts from 
 
-`wget https://files.pythonhosted.org/packages/b0/20/a95abd315193ac23a16dbe04ba582dc8d7372d55a1730846a7d25136bdb5/bdworkbench-3.4.tar.gz`
+`wget https://files.pythonhosted.org/packages/b0/20/a95abd315193ac23a16dbe04ba582dc8d7372d55a1730846a7d25136bdb5/bdworkbench-3.4.tar.gz`{{execute}}
 
 2.Extract the bdworkbench tar file by executing this command
-`tar -xvf bdworkbench-3.4.tar.gz`
+`tar -xvf bdworkbench-3.4.tar.gz`{{execute}}
 
 3.Change the directory to bdworkbench
-`cd bdworkbench-3.4`
+`cd bdworkbench-3.4`{{execute}}
 
 4.Execute the command sudo python setup.py install
-`sudo python setup.py install`
+`sudo python setup.py install`{{execute}}
 
 To install app workbench dependencies using yum:
-`yum install -y python-setuptools`
+`yum install -y python-setuptools`{{execute}}
 
 <b>App Catalog – Node, Role, and Service</b>
 
