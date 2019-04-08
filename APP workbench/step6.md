@@ -1,43 +1,53 @@
 
-To build a custom CentOS 6.x base image:
+Let's build a CentOS 7 base image.
 
-1.SSH into the system where App Workbench is installed.
+Create a directory for base images and navigate to it
 
-2.Create a directory by executing the mkdir command, such as:
+`mkdir -p ~/src/base_images.`{{execute}}
 
-$> mkdir -p ~/src/base_images.
+`cd ~/src/base_images.`{{execute}}
 
-3.Switch to the directory you just created by executing the cd command, such as:
+You are in the base image directory.
 
-$> cd ~/src/base_images.
+Please review the link before proceeding: [Link](http://docs.bluedata.com/awb34_bdwb-shell-commands)
 
-4.Retrieve the BlueData base image for CentOS 6 by executing the following command:
+Retrieve the BlueData base image for CentOS 7 using bdwb command
 
-$> bdwb --baseimg centos6.
+`bdwb --baseimg centos7`{{execute}}
 
-5.This creates a directory called centos6 under your current directory.
+A CentOS 7 directory will be created in the current directory. Navigate to it.
 
-6.Switch to the centos6 directory by executing the following command:
+`cd centos7`{{execute}}
 
-$> cd centos6
+To list the contents inside centos7 directory execute the below command
 
-$> ls -a
+`ls -a`{{execute}}
 
-7.You may override one or more of the following parameter(s) by executing the following command(s), as appropriate:
+Make sure the Build.sh, Makefile and Template are present. 
 
-$> export BASE_IMG_ORGNAME='<orgname>', where <orgname> is the name of your organization, such as enterprise. The default name is bluedata.
-  
-$> export BASE_IMG_VERSION
-  
-$> export CENTOS6_UPSTREAM='<upstream>', where <upstream> is the name of the upstream image source, such as 
-  
- artifactory.com/enterprise:centos6. The default upstream image source is centos:centos6.
- 
-8.Modify the base image as needed. See HelloWorld Application Image Walkthrough for an example of creating a custom image.
+<b>Build.sh</b> is a file that contains a build script to build the centos7 image<br>
+<br>
+<b>Makefile</b> is a program building tool which runs on Unix or Linux<br>
+<br>
+<b>Template</b> is a directory that houses the Dockerfile.template and limits-90-nproc.conf files<br>
 
-9.Make the new image by executing the following command:
+To add your organisation name to the build, run the following command:
 
-$> make centos6
+Here we have used
+Organization name as BlueData
 
-10.Verify that the image has built successfully by executing the command $> docker images.
+`export BASE_IMG_ORGNAME='BlueData'`{{execute}}
+
+To identify your build, you add a build version to image. To do so run the following command:
+
+`export BASE_IMG_VERSION='1.0'`{{execute}}
+
+By default, the upstream image source is centos:centos7
+
+`export CENTOS7_UPSTREAM='centos:centos7'`{{execute}}
+
+where <b>upstream</b> is the name of the upstream image source, such as artifactory.com/enterprise:centos7. The default upstream image source is centos:centos7.
+
+
+
 
