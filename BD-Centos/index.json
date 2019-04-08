@@ -26,6 +26,9 @@
   "environment": {
     "uilayout": "terminal"
     
+  },
+  "backend": {
+    "imageid": "centos-vm"
   }
-  
+}
 }
