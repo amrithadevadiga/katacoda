@@ -28,7 +28,7 @@
     
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "centos"
   }
 }
 
