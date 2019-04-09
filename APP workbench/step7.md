@@ -1,7 +1,7 @@
 
 Verify that the image has built successfully by executing the below command:
 
-docker images{{execute}}
+`docker images`{{execute}}
 
 docker images command will show all top level images, their repository, tags, and size.
 
