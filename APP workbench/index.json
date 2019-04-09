@@ -5,7 +5,7 @@
   "time": "10 minutes",
   "details": {
     "steps": [
-     { "title": "Step 1 - Intro To BlueData Application Workbench. ","text": "intro.md"},
+     { "title": "Step 1 - Intro To BlueData Application Workbench. ","text": "step1.md"},
      { "title": "Step 2 - Application Classification and Integration Patterns ","text": "step2.md"},
      { "title": "Step 3 - installation of App work bench ","text": "step3.md"},
      { "title": "Step 4 - Application Design Considerations  ","text": "step4.md"},
