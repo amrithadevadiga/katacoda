@@ -1,4 +1,4 @@
-Manual installation exercise
+Let's install App workbench version 3.4 
 
 Skills needed:
 <ul>
