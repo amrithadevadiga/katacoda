@@ -28,7 +28,7 @@ Note: Install java, Spark, Webssh on all nodes
 `bdwb --version`{{execute}}
 
 7.The workbench has inline help. Try the following
-`bdwd` {{execute}}
+`bdwb`{{execute}}
 
 `help`{{execute}}
 
