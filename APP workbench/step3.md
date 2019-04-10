@@ -36,7 +36,7 @@ Note: Install java, Spark, Webssh on all nodes
 
 `help catalog new`{{execute}}
 
-`Exit`{{execute}}
+`exit`{{execute}}
 
 
 
