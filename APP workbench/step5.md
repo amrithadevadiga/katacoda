@@ -1,4 +1,3 @@
-<b>Cluster Deployment Lifecycle</b>
 <ol>
   <li>Creating the Cluster</li>
 
