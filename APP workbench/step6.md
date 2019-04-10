@@ -49,6 +49,7 @@ By default, the upstream image source is centos:centos7
 where <b>upstream</b> is the name of the upstream image source, such as artifactory.com/enterprise:centos7. The default upstream image source is centos:centos7.
 
 Make the new centos7 image by executing the following command
+
 `make centos7`{{execute}}
 
 
