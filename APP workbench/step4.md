@@ -1,9 +1,10 @@
 <b>Application Design Considerations</b>
+
 <br>When designing an application that you intend to build using App Workbench:
-<br>1.EPIC runs applications unmodified. You can have multiple services running inside a single container, much like a physical installation. 
-<br>2.For simplicity, BlueData encourages the use of a single Docker image file for a given application. 
-<br>3.Per-node service placement is controlled through a service definition catalog (JSON) file.
-<br>4.If necessary, an add-on service can be stored in its own Docker image file and be attached as a dependent service into a Hadoop or Spark cluster.
+<br>1.	EPIC runs applications unmodified. You can have multiple services running inside a single container, much like a physical installation. 
+<br>2.	For simplicity, BlueData encourages the use of a single Docker image file for a given application. 
+<br>3.	Per-node service placement is controlled through a service definition catalog (JSON) file.
+<br>4.	If necessary, an add-on service can be stored in its own Docker image file and be attached as a dependent service into a Hadoop or Spark cluster.
 
 
 <b>Application Lifecycle</b>
@@ -24,11 +25,11 @@
 <li>Registering the Application</li>
 <br>Applications provided by BlueData will normally appear in the App Store screen. Custom applications must be manually added to EPIC in order for them to be visible in the App Store screen. To do this:
 
-1.Copy the .bin file to /srv/bluedata/catalog on the EPIC Controller host.
+1. Copy the .bin file to /srv/bluedata/catalog on the EPIC Controller host.
 
-2.In the EPIC interface, refresh the App Store screen. It should display a new icon using the logo image from the new .bin file.
+2. In the EPIC interface, refresh the App Store screen. It should display a new icon using the logo image from the new .bin file.
 
-3.Click the Install button for the application. This process makes the application binaries ready and available for future use but does not create any clusters.
+3. Click the Install button for the application. This process makes the application binaries ready and available for future use but does not create any clusters.
 
 <li>Removing the Application</li>
 <br>The Platform Administrator can delete or disable an application from the App Store screen. Disabling an application prevents new clusters from being created using that application.
