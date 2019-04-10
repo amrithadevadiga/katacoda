@@ -29,9 +29,13 @@ Note: Install java, Spark, Webssh on all nodes
 
 7.The workbench has inline help. Try the following
 `bdwd`{{execute}}
+
 `help`{{execute}}
+
 `help catalog`{{execute}}
+
 `help catalog new`{{execute}}
+
 `Exit`{{execute}}
 
 
