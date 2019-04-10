@@ -22,7 +22,7 @@
 <br>AppWorkbench allows users to build and package the application components (see Components of an Application) into a compressed .bin file for easy identification, distribution, and management.
 
 <li>Registering the Application</li>
-<brApplications provided by BlueData will normally appear in the App Store screen. Custom applications must be manually added to EPIC in order for them to be visible in the App Store screen. To do this:
+<br>Applications provided by BlueData will normally appear in the App Store screen. Custom applications must be manually added to EPIC in order for them to be visible in the App Store screen. To do this:
 
 1.Copy the .bin file to /srv/bluedata/catalog on the EPIC Controller host.
 
