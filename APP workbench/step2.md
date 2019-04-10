@@ -1,4 +1,4 @@
-Application Classification and Integration Patterns
+Let's look in to Application Classification and Integration Patterns
 
 <b>Big Data Application Classification </b>
 Big Data applications fall into the following categories:
