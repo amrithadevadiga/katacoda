@@ -10,17 +10,17 @@
 <b>Application Lifecycle</b>
 <ol>
   <li>Creating the Dockerfile</li>
-<br>Image developers create and use Dockerfiles on an application development machine.however organizations can build entirely custom base images and add the necessary BlueData components
+<br>Image developers create and use Dockerfiles on an application development machine.however organizations can build entirely custom base images and add the necessary BlueData components<br>
 
 <li>Metadata JSON File</li>
 <br>Most Big Data applications require running multiple services per node, and running different sets of services on different nodes. The set of services that run on a given node is controlled by the role assigned to that node.
-<br>The Catalog metadata JSON file includes the application name, ID, version, logo, and UI preferences. This JSON file also includes a list of the services, roles, and role-to-service assignments that will be used when a cluster is created from that image.
+<br>The Catalog metadata JSON file includes the application name, ID, version, logo, and UI preferences. This JSON file also includes a list of the services, roles, and role-to-service assignments that will be used when a cluster is created from that image<br>
 
 <li>Startscripts</li>
-<br>The application package (.bin file) contains all of the scripts that are executed as part of the cluster bring-up process, as well as logic to start services that must be run on node(s) assigned to one or more specific role(s) defined in the metadata JSON file.
+<br>The application package (.bin file) contains all of the scripts that are executed as part of the cluster bring-up process, as well as logic to start services that must be run on node(s) assigned to one or more specific role(s) defined in the metadata JSON file<br>
 
 <li>Creating the .bin File</li>
-<br>AppWorkbench allows users to build and package the application components (see Components of an Application) into a compressed .bin file for easy identification, distribution, and management.
+<br>AppWorkbench allows users to build and package the application components (see Components of an Application) into a compressed .bin file for easy identification, distribution, and management<br>
 
 <li>Registering the Application</li>
 <br>Applications provided by BlueData will normally appear in the App Store screen. Custom applications must be manually added to EPIC in order for them to be visible in the App Store screen. To do this:
