@@ -6,8 +6,7 @@ Skills needed:
   <li>Familiarity with shell and python scripting</li>
   <li>Linux admin skills</li>
 </ul>
-
-1. Download scripts from 
+1.Download scripts from 
 <br>`wget https://files.pythonhosted.org/packages/b0/20/a95abd315193ac23a16dbe04ba582dc8d7372d55a1730846a7d25136bdb5/bdworkbench-3.4.tar.gz`{{execute}}
 
 2.Extract the bdworkbench tar file by executing following command
