@@ -32,9 +32,7 @@ Make sure following files/directories are present:
 <b><li>Template:</b> It is a directory that houses the Dockerfile.template and limits-90-nproc.conf files<br>
 
 To add your organisation name to the build, run the following command:
-
-Here we have used
-Organization name as BlueData
+Here we have used Organization name as BlueData
 <br>`export BASE_IMG_ORGNAME='bluedata'`{{execute}}
 
 To identify your build, you add a build version to image. To do so run the following command:
