@@ -25,8 +25,7 @@ Make sure following files/directories are present:
 <li>Makefile
 <li>Template 
 
-<br>
-<b><li>Build.sh:</b> It is a file that contains a build script to build the centos7 image<br>
+<br><b><li>Build.sh:</b> It is a file that contains a build script to build the centos7 image<br>
 <br>
 <b><li>Makefile:</b> It is a program building tool which runs on Unix or Linux<br>
 <br>
