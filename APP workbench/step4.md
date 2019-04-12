@@ -10,7 +10,7 @@
 <b>Application Lifecycle</b>
 <ol>
   <li>Creating the Dockerfile</li>
-<br>Image developers create and use Dockerfiles on an application development machine.however organizations can build entirely custom base images and add the necessary BlueData components<br>
+<br>Image developers create and use Dockerfiles on an application development machine, however organizations can build entirely custom base images and add the necessary BlueData components<br>
 
 <li>Metadata JSON File</li>
 <br>Most Big Data applications require running multiple services per node, and running different sets of services on different nodes. The set of services that run on a given node is controlled by the role assigned to that node.
