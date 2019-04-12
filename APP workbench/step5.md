@@ -9,7 +9,7 @@ When creating the cluster:
 <li>Cluster creation options can be customized and presented to the user via custom elements by updating the metadata JSON file </li>
 <li>bdvcli commands offer a rich set of information about the cluster and tenant from within a container</li>
 </ul>
-<li>Bootstrapping</li>
+<br><li>Bootstrapping</li>
 
 Startscripts run immediately after a cluster is started or restarted. 
 Some of the things you can do with a startscript include:
@@ -19,7 +19,7 @@ Some of the things you can do with a startscript include:
   <li>Set up custom LDAP/AD integration on all of the Docker nodes in the cluster</li>
   <li>Perform SAML integration for the cluster</li>
 </ul>
-<li>Running</li>
+<br><li>Running</li>
 While a cluster is running:
 <ul>
   <li>Authorized users can access the cluster via SSH</li>
@@ -28,11 +28,11 @@ While a cluster is running:
 <li>Models and results can be saved to the default TenantStorage DataTap or to shared external storage via a DataTap, git, or S3 locations</li>
   <li>Any product can be deployed for testing or use once the cluster has been created</li>
 </ul>
-<li>Scaling the Cluster
+<br><li>Scaling the Cluster
   <ul>
 <li>Running applications in BlueData can be scaled up or down using either the EPIC interface or the API. All registered services will automatically start and be configured after the cluster has been scaled up or down</li>
   </ul>
-<li>Stopping/Deleting the Cluster
+<br><li>Stopping/Deleting the Cluster
   <ul>
 <li>Clusters can be stopped to release shared resources. SSH access is disabled, and the running services will be stoped when the cluster is stopped</li>
     </ul>
