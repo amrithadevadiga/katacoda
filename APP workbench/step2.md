@@ -1,6 +1,6 @@
 Let's look in to Application Classification and Integration Patterns
 
-<b>Big Data Application Classification </b>
+<b><li>Big Data Application Classification: </b>
 Big Data applications fall into the following categories:
 <ol>
   <li>Data ingestion (Ingress)</li>
@@ -9,7 +9,7 @@ Big Data applications fall into the following categories:
   <li>View or output (Egress)</li>
   </ol>
 
-<b>Application Integration Patterns</b>
+<b><li>Application Integration Patterns:</b>
 Users can connect to Big Data applications in three ways:
 <ol>
   <li>From a desktop/laptop computer</li>
