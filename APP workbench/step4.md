@@ -1,13 +1,13 @@
-<b>Application Design Considerations</b><br>
+<b>Application Design Considerations:</b><br>
 
-<br>1. EPIC runs applications unmodified. You can have multiple services running inside a single container, much like a physical installation.<br> 
+1. EPIC runs applications unmodified. You can have multiple services running inside a single container, much like a physical installation.<br> 
 <br>2. For simplicity, BlueData encourages the use of a single Docker image file for a given application<br> 
 <br>3. Per-node service placement is controlled through a service definition catalog (JSON) file<br>
 <br>4. If necessary, an add-on service can be stored in its own Docker image file and be attached as a dependent service into a Hadoop or Spark cluster<br></ol>
 
 
-
-<b>Application Lifecycle</b>
+<br>
+<b>Application Lifecycle:</b>
 <ol>
   <li>Creating the Dockerfile</li>
 <br>Image developers create and use Dockerfiles on an application development machine, however organizations can build entirely custom base images and add the necessary BlueData components<br>
