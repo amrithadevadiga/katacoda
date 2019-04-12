@@ -25,13 +25,14 @@ Make sure following files/directories are present:
 <li>Makefile
 <li>Template 
 
+
 <b><li>Build.sh:</b> It is a file that contains a build script to build the centos7 image<br>
 <br>
 <b><li>Makefile:</b> It is a program building tool which runs on Unix or Linux<br>
 <br>
 <b><li>Template:</b> It is a directory that houses the Dockerfile.template and limits-90-nproc.conf files<br>
 
-To add your organisation name to the build, run the following command:
+To add your organisation name to the build, run the following command.
 Here we have used Organization name as BlueData
 <br>`export BASE_IMG_ORGNAME='bluedata'`{{execute}}
 
