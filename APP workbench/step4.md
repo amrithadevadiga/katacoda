@@ -1,5 +1,5 @@
 <b>Application Design Considerations</b><br>
-When designing an application that you intend to build using App Workbench:<br>
+<ol>
 <br>1.	EPIC runs applications unmodified. You can have multiple services running inside a single container, much like a physical installation.<br> 
 <br>2.	For simplicity, BlueData encourages the use of a single Docker image file for a given application<br> 
 <br>3.	Per-node service placement is controlled through a service definition catalog (JSON) file<br>
