@@ -36,8 +36,8 @@ Skills needed:
 `exit`{{execute}}
 
 BlueData catalog allows users to map a deployment strategy in a json file, and use this json as a guide while stating the cluster. Same Docker image can be used in multiple strategies. 
-<br>Catalog file includes:
-<br>
+
+Catalog file includes:
 <br><b><li>Node:</b> A running docker container instance. A cluster can have several nodes, spread on several physical hosts
 <br>
 <br><b><li>Role:</b> A type of a container.  Example: worker, master, edge, etc. A cluster can have zero or more containers of each role after deployment
