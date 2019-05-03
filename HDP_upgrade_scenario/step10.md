@@ -1,14 +1,20 @@
-We need to add additional configuration files, We already have a reference configuration files, To add them follow the below steps
+Let's see what you have built.
+The newly built application package (or bundle) is saved in the deliverables directory. 
+<br>`cd deliverables`{{execute}}
+<br>`ls `{{execute}}
 
-Remove the existing set-up folder from the HDP folder
-rm -rf ambari-26-setup.zip{execute}}
+Congratulations you have successfully upgraded the HDP image.
 
-Add the reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
-wget https://www.dropbox.com/s/0bops5b1ai4yp1k/ambari-26-setup.zip{{execute}} 
-yum install unzip -y{{execute}}
+To make the new image appear in App Store.
+Copy the bin file to /srv/bluedata/catalog using the following commad
+<br>`cp bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin /srv/bluedata/catalog`{{execute}}
 
-Unzip the file
-unzip ambari-26-setup.zip{execute}}
+Make it an executable using the below command
+<br>`chmod +x bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin`{{execute}}
 
-Check files under appconfig directory
-ls ambari-26-setup.zip{execute}}
+Go to App Store in the EPIC GUI and click on <b>Refresh </b>button to bring the image in to App Store.
+
+Once the image appears on the App Store click on <b>Install </b> button to install the image.
+
+![alt text](https://dzf8vqv24eqhg.cloudfront.net/userfiles/7467/9720/ckfinder/images/AppWorkbench/Walkthrough/example_3.jpg)
+
