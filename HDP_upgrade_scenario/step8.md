@@ -12,7 +12,7 @@ Unzip the file
 `unzip ambari-26-setup.zip`{{execute}}
 
 Check files under appconfig directory
-`ls ambari-26-setup`{execute}}
+`ls ambari-26-setup`{{execute}}
 
 
 
