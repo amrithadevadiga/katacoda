@@ -4,14 +4,14 @@ The newly built application package (or bundle) is saved in the deliverables dir
 <br>`cd deliverables`{{execute}}
 <br>`ls `{{execute}}
 
-Congratulations you have successfully upgraded the CDH image.
+Congratulations you have successfully upgraded the HDP image.
 
 To make the new image appear in App Store.
 Copy the bin file to /srv/bluedata/catalog using the following commad
-<br>`cp bdcatalog-centos7-bluedata-cdh515_centos7x-1.7.bin /srv/bluedata/catalog`{{execute}}
+<br>`cp bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin /srv/bluedata/catalog`{{execute}}
 
 Make it an executable using the below command
-<br>`chmod +x bdcatalog-centos7-bluedata-cdh515_centos7x-1.7.bin`{{execute}}
+<br>`chmod +x bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin`{{execute}}
 
 Go to App Store in the EPIC GUI and click on <b>Refresh </b>button to bring the image in to App Store.
 
