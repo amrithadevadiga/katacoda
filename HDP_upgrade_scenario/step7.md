@@ -1,11 +1,11 @@
 Now, we will make changes in our .json file.<br>
 
 We already have a reference json file. We just need to replace the current json file with the reference one. For doing so, execute the following commands.
-<br>`rm -rf ~/Source/CDH/cdh514.json`{{execute}}
-<br>`cp ~/test/cdh515.json ~/Source/HDP/`{{execute}}
+<br>`rm -rf ~/Source/HDP/hdp25ambari24-centos.json`{{execute}}
+<br>`cp ~/test/hdp26-ambari26.json ~/Source/HDP/`{{execute}}
 
 To view the content of the file, execute the following
-<br>`cat ~/Source/HDP/cdh515.json`{{execute}}
+<br>`cat ~/Source/HDP/hdp26-ambari26.json`{{execute}}
 
 <b>Json file</b> Contains the application registration and deployment information.<br>
 <br>
@@ -17,12 +17,12 @@ To view the content of the file, execute the following
 <br>
 <b>Below is the example snippet for identification:</b>
 <br>
-"distro_id": "bluedata/cdh515_centos7x"<br>
+"distro_id": "bluedata/hdp26-ambari26-7x-macys"<br>
 "label": {<br>
-  "name": ""name": "CDH 5.15.0 on 7x  with Cloudera Manager",<br>
-  "description": "CDH 5.15.0 with MRv1/YARN and HBase support. Includes Pig, Hive, Hue and Spark."<br>
+  "name": ""name": "HDP 2.6 on 7.x with Ambari 2.6",<br>
+  "description": "HDP 2.6.4.0 on 7.x with Ambari 2.6.2.2 with YARN support. Includes Pig, Hive, Oozie and HBase"<br>
   },<br>
-"version": "1.7",<br>
+"version": "1.0",<br>
 "epic_compatible_versions": ["3.4"],<br>
 "categories": [ "Hadoop", "HBase" ],<br>
 
@@ -41,8 +41,9 @@ To view the content of the file, execute the following
 <br>
 <br><strong>categories</strong> is a list of strings used by the EPIC interface to group Catalog entries during cluster creation.
 <br>
-<br>Note: Changes that needs to be done in json file for upgrading CDH image is:
-Name and distro_id needs to be updated  based on the version of the CDH image to reflect the changes in the App Store for the upgraded image<br>
+<br>Note: Changes that needs to be done in json file for upgrading HDP image is:
+Name and distro_id needs to be updated  based on the version of the HDP
+image to reflect the changes in the App Store for the upgraded image<br>
 
 <br>
 <li><strong>Components</strong></li>
@@ -50,13 +51,13 @@ Name and distro_id needs to be updated  based on the version of the CDH image to
 <b>Below is the example snippet for components:</b>
 <br>
 "image": {<br>
- "checksum": "65cd4ffd0cac3feec3e0719ae4f3dbcd",
-        "source_file": "bluedata-cdh5122_centos7x-centos7-2.0.tar.gz"<br>
+ "checksum": "",
+        "source_file": ""<br>
 },<br>
 "setup_package": {<br>
   "config_api_version": 7,
-       <br> "checksum": "a7ea64f9b1de60ab9f87d76e2f571069",
-     <br>   "source_file": "cdh5-cm-setup.tgz"<br>
+       <br> "checksum": "",
+     <br>   "source_file": ""<br>
 },<br>
 <br>
 <br><strong>image</strong>  is a property that identifies the location for the image used to launch virtual nodes for this Catalog entry. 
