@@ -5,6 +5,7 @@ Remove the existing set-up folder from the HDP folder
 
 Add the reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
 `wget https://www.dropbox.com/s/67atp94br8yct42/ambari-26-setup.zip`{{execute}} 
+
 `yum install unzip -y`{{execute}}
 
 Unzip the file
