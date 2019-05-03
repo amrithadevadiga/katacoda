@@ -1,7 +1,17 @@
-Building the Bin File. <br>
-In this step, we are ready to create our image using the BlueData Application Workbench.<br> The BIN file is used by the EPIC platform to install the image you created onto the platform for use. <br>
-<br>Execute the wb file to build the BIN file. To do so run the following command:
-<br>`./hdp26-ambari26.wb`{{execute}}
-<br>
-<br>
-This step will take some time to create the BIN file. 
+We need to add additional configuration files, We already have a reference configuration files, To add them follow the below steps
+
+Remove the existing set-up folder from the HDP folder
+rm -rf ambari-26-setup.zip{execute}}
+
+Add the reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
+wget https://www.dropbox.com/s/0bops5b1ai4yp1k/ambari-26-setup.zip{{execute}} 
+yum install unzip -y{{execute}}
+
+Unzip the file
+unzip ambari-26-setup.zip{execute}}
+
+Check files under appconfig directory
+ls ambari-26-setup.zip{execute}}
+
+
+
