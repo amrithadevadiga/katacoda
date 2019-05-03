@@ -1,21 +1,9 @@
+Building the Bin File. <br>
+In this step, we are ready to create our image using the BlueData Application Workbench.<br> The BIN file is used by the EPIC platform to install the image you created onto the platform for use. <br>
+<br>Execute the wb file to build the BIN file. To do so run the following command:
+<br>`./hdp26-ambari26.wb`{{execute}}
+<br>
+<br>
+This step will take some time to create the BIN file. 
 
-Let's see what you have built.
-The newly built application package (or bundle) is saved in the deliverables directory. 
-<br>`cd deliverables`{{execute}}
-<br>`ls `{{execute}}
-
-Congratulations you have successfully upgraded the HDP image.
-
-To make the new image appear in App Store.
-Copy the bin file to /srv/bluedata/catalog using the following commad
-<br>`cp bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin /srv/bluedata/catalog`{{execute}}
-
-Make it an executable using the below command
-<br>`chmod +x bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin`{{execute}}
-
-Go to App Store in the EPIC GUI and click on <b>Refresh </b>button to bring the image in to App Store.
-
-Once the image appears on the App Store click on <b>Install </b> button to install the image.
-
-![alt text](https://dzf8vqv24eqhg.cloudfront.net/userfiles/7467/9720/ckfinder/images/AppWorkbench/Walkthrough/example_3.jpg)
 
