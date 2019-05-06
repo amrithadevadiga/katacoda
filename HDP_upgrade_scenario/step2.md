@@ -16,6 +16,9 @@ Download the bin file by executing the following command.
 Extract the content of the tar file by executing the following command
 <br>`tar xvf bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin.tar`{{execute}}
 <br><br>
+Delete the tar file by executing the following command to save the memory space
+<br>`rm -rf bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin.tar`{{execute}}
+<br><br>
 Now, Make the .bin file executable by executing the following command<br>
 `chmod +x bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin`{{execute}}
 
