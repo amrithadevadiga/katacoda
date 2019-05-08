@@ -6,7 +6,7 @@ Before that, let us install wget package. For doing so, execute the following co
 <br>
 Now, Copy the bin file from into Source Directory.
 <br>
-`cp bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin /root/Source{{execute}}
+`cp bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin /root/Source`{{execute}}
 <br>
 <br>
 Now, navigate to the Source directory.
