@@ -11,7 +11,7 @@ Now, Copy the bin file from into Source Directory.
 <br>
 Now, Remove all folders which are pre-installed to save the space.
 <br>
-`rm -rf $(ls | grep -v Source`{{execute}}
+`rm -rf $(ls | grep -v Source)`{{execute}}
 <br>
 <br>
 Now, navigate to the Source directory.
