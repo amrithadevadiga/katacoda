@@ -11,7 +11,7 @@ Add the reference file using the below command from stored location(Due to space
 Unzip the file
 `unzip ambari-26-setup.zip`{{execute}}
 
-Delete Zip folder of setfile
+Delete Zip folder of set-up files to save a memory
 `rm -rf ambari-26-setup.zip`{{execute}}
 
 Check files under appconfig directory
