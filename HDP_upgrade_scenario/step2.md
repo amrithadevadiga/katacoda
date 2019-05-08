@@ -9,6 +9,11 @@ Now, Copy the bin file from into Source Directory.
 `cp bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin /root/Source`{{execute}}
 <br>
 <br>
+Now, Remove all folders which are pre-installed to save the space.
+<br>
+`rm -rf $(ls | grep -v Source`{{execute}}
+<br>
+<br>
 Now, navigate to the Source directory.
 <br>
 `cd ~/Source`{{execute}}
