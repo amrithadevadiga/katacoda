@@ -37,6 +37,6 @@
     "uimessage1": "\u001b[32mInitializing Bluedata Application Workbench environment.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "bluedata-workbench"
+    "imageid": "centos-vm"
   }
 }
