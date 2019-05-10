@@ -9,10 +9,11 @@ For your reference, we have already created a ready Dockerfile in the ~/test dir
 <br>copy that file into the centos folder using the following command:<br>
 <br>let us create the directory called image
 `mkdir image`{{execute}}<br>
+<br>
 `cd image`{{execute}}<br>
 <br>let us create the directory called centos under image
 `mkdir centos`{{execute}}<br>
-
+<br>
 `cp ~/test/Dockerfile ~/Source/HDP/image/centos`{{execute}}<br>
 
 To view the contents of the Dockerfile, you can use vi, vim, or cat out the contents. To view the contents in the terminal console execute the following command:<br>
