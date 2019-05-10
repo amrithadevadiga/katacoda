@@ -1,10 +1,10 @@
-For upgrading the image, we will be using a bin file of the existing image already developed. Let us download a .bin file to the directory we have created in the earlier step. 
+Here we will be using a bin file of the existing image already developed. Let us download a .bin file to the directory we have created in the earlier step.
 <br>
 Before that, let us install wget package. For doing so, execute the following command
 <br>
 `yum install wget -y`{{execute}}<br>
 <br>
-Now, Copy the bin file from into Source Directory.
+Now, Copy the existing HDP bin file into Source Directory.
 <br>
 `cp bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin /root/Source`{{execute}}
 <br>
