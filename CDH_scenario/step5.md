@@ -1,4 +1,4 @@
-Now, we will make changes in .wb file <br>
+Lets see the content of .wb file <br>
 
 Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb34_updating-an-existing-image)<br>
 <br>
