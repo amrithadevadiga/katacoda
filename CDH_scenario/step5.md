@@ -2,8 +2,8 @@ Now, we will make changes in .wb file <br>
 
 Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb34_updating-an-existing-image)<br>
 <br>
-For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the HDP directory using the following command:<br>
-`cd ~/Source/HDP`{{execute}}<br>
+Move to CDH directory by the using the following command:<br>
+`cd ~/Source/CDH`{{execute}}<br>
 
 To view the content of .wb file, execute the following command:<br>
 `cat ~/Source/CDH/cdh514.wb`{{execute}}
