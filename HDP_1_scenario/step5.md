@@ -5,10 +5,11 @@ Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb3
 Move to HDP directory:<br>
 `cd ~/Source/HDP`{{execute}}<br>
 
+`cp ~/test/hdp26-ambari26.wb ~/Source/HDP
 To view the content of .wb file, execute the following command:<br>
 `cat ~/Source/HDP/hdp25-ambari24.wb`{{execute}}
 
-<br><strong>hdp25-ambari24.wb file contain following section</strong>
+<br><strong>hdp26-ambari26.wb file contain following section</strong>
 <br>
 <br><b>Section 1:</b> <br>
 <br><b>The below line will Set the organization name.</b>
