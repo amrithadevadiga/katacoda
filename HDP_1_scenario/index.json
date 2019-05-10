@@ -7,12 +7,10 @@
     "steps": [
    	 { "title": "Step 1 - Creating the base directory","text": "step1.md"},
    	 { "title": "Step 2 - Copying the bin file", "text": "step2.md"},
-   	 { "title": "Step 3 - Extracting the contents of the bin file", "text": "step3.md"},
-   	 { "title": "Step 4 - Modifying existing image", "text": "step4.md"},
-	{ "title": "Step 5 - Explain the.wb file", "text": "step5.md"},
-	{ "title": "Step 6 - Explain the Dockerfile", "text": "step6.md"},
-	{ "title": "Step 7 - Explain the json file", "text": "step7.md"},
-        { "title": "Step 8 - Expain the set-up files", "text": "step8.md"},
+   	 { "title": "Step 5 - Explain the.wb file", "text": "step5.md"},
+	{ "title": "Step 6 - Creating the Dockerfile", "text": "step6.md"},
+	{ "title": "Step 7 - Craeating the json file", "text": "step7.md"},
+        { "title": "Step 8 - Creating the set-up files", "text": "step8.md"},
 	{ "title": "Step 9 - Creating the image", "text": "step9.md"},
 	{ "title": "Step 10 - Finalising your build for HDP image", "text": "step10.md"}
         
