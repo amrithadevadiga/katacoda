@@ -7,10 +7,10 @@ For your reference, we have already created a ready .wb file in the ~/test direc
 <br>Delete the existing .wb file before you copy the new .wb file by executing the below command
 <br>`rm -rf  hdp25-ambari24.wb`{{execute}}<br>
 <br>Copy the new .wb file into HDP directory using the following command:
-<br>`cp ~/test/hdp26-ambari26.wb ~/Source/HDP`{{execute}}
+<br>`cp ~/test/hdp26-ambari25.wb ~/Source/HDP`{{execute}}
 
 To view the content of .wb file, execute the following command:<br>
-`cat ~/Source/HDP/hdp26-ambari26.wb`{{execute}}
+`cat ~/Source/HDP/hdp26-ambari25.wb`{{execute}}
 
 <br><strong>hdp26-ambari26.wb file contain following section</strong>
 <br>
