@@ -6,7 +6,7 @@ Please review the link before proceeding for wb file: [Link](http://docs.bluedat
 <br>
 Move to HDP directory:<br>
 `cd ~/Source/HDP`{{execute}}<br>
-For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the Spark directory using the following command:
+For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the HDP directory using the following command:
 <br>
 `cp ~/test/hdp26-ambari26.wb ~/Source/HDP`{{execute}}
 
