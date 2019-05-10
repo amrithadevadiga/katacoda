@@ -5,7 +5,8 @@ Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb3
 Move to HDP directory:<br>
 `cd ~/Source/HDP`{{execute}}<br>
 
-`cp ~/test/hdp26-ambari26.wb ~/Source/HDP
+`cp ~/test/hdp26-ambari26.wb ~/Source/HDP`{{execute}}
+
 To view the content of .wb file, execute the following command:<br>
 `cat ~/Source/HDP/hdp25-ambari24.wb`{{execute}}
 
