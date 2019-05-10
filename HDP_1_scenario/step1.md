@@ -8,5 +8,5 @@ For checking the version of BlueData App-Workbench, execute the following comman
 
 <br>
 Now, to begin let us create the directory to house the files
-<br>`mkdir ~/Source`{{execute}}
+<br>`mkdir ~/Spark`{{execute}}
 <br>`mkdir ~/Source/HDP`{{execute}}
