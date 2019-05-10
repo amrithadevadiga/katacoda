@@ -1,7 +1,10 @@
 Now, we will make changes in our .json file.<br>
 
+Copy the json file in HDP directory
+`cp ~/test/hdp26-ambari26.json ~/Source/HDP`
+
 To view the content of the file, execute the following
-<br>`cat ~/Source/HDP/hdp25-ambari24.json`{{execute}}
+<br>`cat ~/Source/HDP/hdp26-ambari26.json`{{execute}}
 
 <b>Json file</b> Contains the application registration and deployment information.<br>
 <br>
@@ -15,8 +18,8 @@ To view the content of the file, execute the following
 <br>
 "distro_id": "bluedata/hdp26-ambari26-7x-macys"<br>
 "label": {<br>
-  "name": ""name": "HDP 2.5 on 7.x with Ambari 2.5",<br>
-  "description": "HDP 2.5.4.0 on 7.x with Ambari 2.5.2.2 with YARN support. Includes Pig, Hive, Oozie and HBase"<br>
+  "name": ""name": "HDP 2.6 on 7.x with Ambari 2.6",<br>
+  "description": "HDP 2.6.4.0 on 7.x with Ambari 2.6.2.2 with YARN support. Includes Pig, Hive, Oozie and HBase"<br>
   },<br>
 "version": "1.0",<br>
 "epic_compatible_versions": ["3.4"],<br>
