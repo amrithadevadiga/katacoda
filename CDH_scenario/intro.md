@@ -1,10 +1,10 @@
-Hello. Today we will be teaching you how to create an image on the Blue Data EPIC platform. In this scenario you will learn how to upgrade  HDP image using the Blue Data EPIC Application Workbench on a CentOS base image container.
+Hello. Today we will be teaching you how to create an image on the Blue Data EPIC platform. In this scenario you will learn how to Create  CDH image using the Blue Data EPIC Application Workbench on a CentOS base image container.
 
 ## Prerequisites:
 <br>-Basic knowledge on containers
 <br>-Linux administration
 <br>-Git
-<br>-Hadoop and HDP
+<br>-Hadoop and CDH
 
 
 This scenario is developed by:
