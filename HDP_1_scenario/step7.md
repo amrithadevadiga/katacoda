@@ -1,7 +1,7 @@
 Now, we will make changes in our .json file.<br>
 
 Copy the json file in HDP directory
-`cp ~/test/hdp26-ambari26.json ~/Source/HDP`
+`cp ~/test/hdp26-ambari26.json ~/Source/HDP`{{execute}}
 
 To view the content of the file, execute the following
 <br>`cat ~/Source/HDP/hdp26-ambari26.json`{{execute}}
