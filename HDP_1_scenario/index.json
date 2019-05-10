@@ -6,8 +6,8 @@
   "details": {
     "steps": [
    	 { "title": "Step 1 - Creating the base directory","text": "step1.md"},
-   	 { "title": "Step 2 - Copying the bin file", "text": "step2.md"},
-   	 { "title": "Step 5 - Explain the.wb file", "text": "step5.md"},
+   	
+   	 { "title": "Step 5 - Creating a the.wb file", "text": "step5.md"},
 	{ "title": "Step 6 - Creating the Dockerfile", "text": "step6.md"},
 	{ "title": "Step 7 - Craeating the json file", "text": "step7.md"},
         { "title": "Step 8 - Creating the set-up files", "text": "step8.md"},
