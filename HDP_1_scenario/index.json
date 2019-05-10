@@ -7,12 +7,12 @@
     "steps": [
    	 { "title": "Step 1 - Creating the base directory","text": "step1.md"},
    	
-   	 { "title": "Step 5 - Creating a the.wb file", "text": "step5.md"},
-	{ "title": "Step 6 - Creating the Dockerfile", "text": "step6.md"},
-	{ "title": "Step 7 - Craeating the json file", "text": "step7.md"},
-        { "title": "Step 8 - Creating the set-up files", "text": "step8.md"},
-	{ "title": "Step 9 - Creating the image", "text": "step9.md"},
-	{ "title": "Step 10 - Finalising your build for HDP image", "text": "step10.md"}
+   	 { "title": "Step 2 - Creating a the.wb file", "text": "step5.md"},
+	{ "title": "Step 3 - Creating the Dockerfile", "text": "step6.md"},
+	{ "title": "Step 4 - Craeating the json file", "text": "step7.md"},
+        { "title": "Step 5 - Creating the set-up files", "text": "step8.md"},
+	{ "title": "Step 6 - Creating the image", "text": "step9.md"},
+	{ "title": "Step 7 - Finalising your build for HDP image", "text": "step10.md"}
         
     ],
     "intro": {
