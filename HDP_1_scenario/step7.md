@@ -1,5 +1,7 @@
-Now, we will make changes in our .json file.<br>
+Now, we will create our .json file.<br>
 
+For your reference, we have already created a ready json file in the ~/test directory. We will copy that file into the HDP directory using the following command:
+<br>
 Copy the json file in HDP directory
 `cp ~/test/hdp26-ambari26.json ~/Source/HDP`{{execute}}
 
