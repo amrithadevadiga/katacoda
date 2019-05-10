@@ -1,10 +1,18 @@
-The next step is to create a Dockerfile. 
+he next step is to create a Dockerfile. 
 <br>
 <strong>"A docker file is a text file that the Docker engine understands to automatically build an image by reading the file. The Dockerfile consists of all the commands a user would call to assemble the desired image."</strong>
 <br>
+<br>
+Let’s go ahead and create a Dockerfile inside the newly created centos folder.
+<br>
+For your reference, we have already created a ready Dockerfile in the ~/test directory. We will copy that file into the centos folder using the following command:<br>
+<br>copy that file into the centos folder using the following command:<br>
+`cp ~/test/Dockerfile ~/Source/HDP/image/centos`{{execute}}<br>
 
-To view the contents of the Dockerfile, you can use vi, vim, or cat out the contents. To view the contents in the terminal console, execute the following command:
-<br>`cat ~/Source/HDP/image/centos/Dockerfile`{{execute}}<br>
+To view the contents of the Dockerfile, you can use vi, vim, or cat out the contents. To view the contents in the terminal console execute the following command:<br>
+`cat ~/Source/HDP/image/centos/Dockerfile`{{execute}}<br>
+
+
 
 You will now see many commands populate your terminal. These are the commands you would use if you were to install your application manually on a host. 
 <br>The first line of the Dockerfile determines what is the “base” image you will be using to install your application on.
