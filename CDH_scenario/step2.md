@@ -20,5 +20,5 @@ Now, navigate to the Source directory.
 <br>
 <br>
 Now, Make the .bin file executable by executing the following command<br>
-`chmod +x bdcatalog-centos7-bluedata-hdp25-ambari-3.3.bin`{{execute}}
+`chmod +x bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.bin`{{execute}}
 
