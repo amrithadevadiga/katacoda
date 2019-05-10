@@ -1,0 +1,22 @@
+#!/usr/bin/env bdwb
+#
+
+# YOUR_ORGANIZATION_NAME must be replaced with a valid organization name. Please
+# refer to 'help builder organization' for details.
+builder organization --name BlueData
+
+catalog load --filepath hdp26-ambari25.json
+appconfig package --dir ambari-25-setup
+logo file --filepath Logo_HortonWorks.png
+
+## Centos catalog bundle
+image build --basedir image/centos --imgversion 3.3 --os centos6
+catalog save --filepath staging/hdp26ambari25-centos.json --force
+sources package --additional ambari-25-setup
+catalog package
+
+## RHEL catalog bundle
+image build --basedir image/rhel --imgversion 3.3 --os rhel6
+catalog save --filepath staging/hdp26ambari25-rhel.json --force
+sources package --additional ambari-25-setup
+catalog package
