@@ -10,13 +10,15 @@ appconfig package --dir ambari-25-setup
 logo file --filepath Logo_HortonWorks.png
 
 ## Centos catalog bundle
-image build --basedir image/centos --imgversion 3.3 --os centos6
-catalog save --filepath staging/hdp26ambari25-centos.json --force
+image build --basedir image/centos --image-repotag bluedata/hdp26
+image package --image-repotag bluedata/hdp26-ambari26
+#image build --basedir image/centos --imgversion 3.3 --os centos6
+#catalog save --filepath staging/hdp26ambari25-centos.json --force
 sources package --additional ambari-25-setup
 catalog package
 
 ## RHEL catalog bundle
-image build --basedir image/rhel --imgversion 3.3 --os rhel6
-catalog save --filepath staging/hdp26ambari25-rhel.json --force
-sources package --additional ambari-25-setup
-catalog package
+#image build --basedir image/rhel --imgversion 3.3 --os rhel6
+#catalog save --filepath staging/hdp26ambari25-rhel.json --force
+#sources package --additional ambari-25-setup
+#catalog package
