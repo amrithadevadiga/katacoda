@@ -4,7 +4,7 @@ Before that, let us install wget package. For doing so, execute the following co
 <br>
 `yum install wget -y`{{execute}}<br>
 <br>
-Now, Copy the bin file from into Source Directory.
+Now, Copy the existing CDH bin file into Source Directory.
 <br>
 `cp bdcatalog-centos7-bluedata-cdh514_centos7x-1.7.bin /root/Source`{{execute}}
 <br>
