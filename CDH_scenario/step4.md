@@ -1,4 +1,4 @@
-Now, to upgrade an existing image to a new one, we should make changes in the following files:
+Now, lets see the following files:
 <br>
 <br>-.wb file
 
