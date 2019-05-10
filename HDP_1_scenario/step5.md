@@ -8,7 +8,7 @@ Move to HDP directory:<br>
 `cp ~/test/hdp26-ambari26.wb ~/Source/HDP`{{execute}}
 
 To view the content of .wb file, execute the following command:<br>
-`cat ~/Source/HDP/hdp25-ambari24.wb`{{execute}}
+`cat ~/Source/HDP/hdp26-ambari26.wb`{{execute}}
 
 <br><strong>hdp26-ambari26.wb file contain following section</strong>
 <br>
