@@ -1,6 +1,6 @@
 {
-  "title": "Upgrading a HDP application image",
-  "description": "Process to upgrade HDP Application image with BlueData Workbench for BlueData's EPIC platform.",
+  "title": " Creating a CDH application image",
+  "description": "Process to create CDH Application image with BlueData Workbench for BlueData's EPIC platform.",
   "difficulty": "Expert",
   "time": "30 minutes",
   "details": {
@@ -9,11 +9,11 @@
    	 { "title": "Step 2 - Copying the bin file", "text": "step2.md"},
    	 { "title": "Step 3 - Extracting the contents of the bin file", "text": "step3.md"},
    	 { "title": "Step 4 - Modifying existing image", "text": "step4.md"},
-	{ "title": "Step 5 - Modifying the .wb file", "text": "step5.md"},
-	{ "title": "Step 6 - Modifying the Dockerfile", "text": "step6.md"},
-	{ "title": "Step 7 - Modifying the json file", "text": "step7.md"},
-        { "title": "Step 9 - Adding configuration set-up files", "text": "step9.md"},
-	{ "title": "Step 10 - Creating the image", "text": "step10.md"}
+	{ "title": "Step 5 - Explain the .wb file", "text": "step5.md"},
+	{ "title": "Step 6 - Explain the Dockerfile", "text": "step6.md"},
+	{ "title": "Step 7 - Explain the json file", "text": "step7.md"},
+        { "title": "Step 9 - Creating the image", "text": "step9.md"},
+	{ "title": "Step 10 - Finalising your build for CDH image", "text": "step10.md"}
 	
     ],
     "intro": {
