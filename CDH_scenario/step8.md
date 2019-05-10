@@ -1,7 +1,4 @@
-We need to add additional configuration files, We already have a reference configuration files, To add them follow the below steps
-
-Remove the existing set-up folder from the HDP folder
-`rm -rf ambari-24-setup`{{execute}}
+We need to add additional configuration files, We already have a reference configuration files, 
 
 Add the reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
 `wget https://www.dropbox.com/s/67atp94br8yct42/ambari-26-setup.zip`{{execute}} 
