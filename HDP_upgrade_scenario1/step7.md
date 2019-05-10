@@ -2,7 +2,7 @@ Now, we will make changes in our .json file.<br>
 
 We already have a reference json file. We just need to replace the current json file with the reference one. For doing so, execute the following commands.
 <br>`rm -rf ~/Source/HDP/hdp25ambari24-centos.json`{{execute}}
-<br>`cp ~/test/hdp26-ambari26.json ~/Source/HDP/`{{execute}}
+<br>`cp ~/test/hdp26-ambari25.json ~/Source/HDP/`{{execute}}
 
 To view the content of the file, execute the following
 <br>`cat ~/Source/HDP/hdp26-ambari25.json`{{execute}}
