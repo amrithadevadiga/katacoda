@@ -1,10 +1,13 @@
-Lets see the content of .wb file  <br>
-
-Plaese review this link before you proceed: [Link](http://docs.bluedata.com/awb34_updating-an-existing-image)<br>
+Lets build a .wb file  <br>
+<br>
+<b>.wb</b> file contains a series of App Workbench commands that control the creation of the Catalog Image<br>
+Please review the link before proceeding for wb file: [Link](http://docs.bluedata.com/awb34_applications-with-multiple-images)
+<br>
 <br>
 Move to HDP directory:<br>
 `cd ~/Source/HDP`{{execute}}<br>
-
+For your reference, we have already created a ready .wb file in the ~/test directory. We will copy that file into the Spark directory using the following command:
+<br>
 `cp ~/test/hdp26-ambari26.wb ~/Source/HDP`{{execute}}
 
 To view the content of .wb file, execute the following command:<br>
