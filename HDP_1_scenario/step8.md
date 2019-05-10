@@ -1,5 +1,7 @@
 Add the reference file using the below command from stored location(Due to space constraint in Katacoda we have uploaded the required files into dropbox)
 <br>
+<br>`cd /root/Source/HDP/`{{execute}}
+<br>
 `wget https://www.dropbox.com/s/67atp94br8yct42/ambari-26-setup.zip`{{execute}} 
 
 `yum install unzip -y`{{execute}}
