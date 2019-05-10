@@ -31,4 +31,4 @@ To view the content of .wb file, execute the following command:<br>
 <br>sources package
 <br>catalog package
 
-
+<br>When our image is ready to deploy in the EPIC Application Catalog, we need to include a picture that represents the image. For your reference, we have already created a .png file for your use.
