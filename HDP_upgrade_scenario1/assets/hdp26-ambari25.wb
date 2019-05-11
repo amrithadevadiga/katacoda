@@ -6,7 +6,7 @@
 builder organization --name BlueData
 
 catalog load --filepath hdp26-ambari25.json
-appconfig package --dir ambari-25-setup
+appconfig package --dir ambari-26-setup
 logo file --filepath Logo_HortonWorks.png
 
 ## Centos catalog bundle
