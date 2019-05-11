@@ -10,6 +10,7 @@ Next, we need to create a skeleton file structure. To do so execute the followin
 
 Now, we will create a folder called “centos” inside the empty image directory.
 <br>Execute the following command to do so :
+<br>`mkdir image`{{execute}}
 <br>`mkdir ~/HDP/image/centos`{{execute}}
 
 Execute the below command to list all the files and folders created by bdwb command:
