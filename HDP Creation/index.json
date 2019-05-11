@@ -24,7 +24,7 @@
 				 
                  {"file": "Dockerfile", "target": "/root/test" ,"chmod": "+x"},
 	         {"file": "hdp26-ambari26.json", "target": "/root/test","chmod": "+x" },
-		 {"file": "catalogsdk-master.tgz", "target": "/" },
+		 
                  {"file": "Logo_HortonWorks.png", "target": "/root/test" },
 		 {"file": "hdp26-ambari26.wb", "target": "/root/test",  "chmod": "+x" }
                  ] 
