@@ -1,1 +1,1 @@
-You have successfully finished the Spark with Jupyter Scenario in BlueData App Workbench environment.!!
+You have successfully finished the HDP in BlueData App Workbench environment.!!
