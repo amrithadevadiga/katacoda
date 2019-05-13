@@ -7,10 +7,10 @@ Congratulations you have successfully upgraded the HDP image.
 
 To make the new image appear in App Store.
 Copy the bin file to /srv/bluedata/catalog using the following commad
-<br>`cp bdcatalog-centos7-bluedata-hdp26-ambari-3.3.bin /srv/bluedata/catalog`
+<br>`cp bdcatalog-centos7-bluedata-hdp26-ambari26-1.0.bin /srv/bluedata/catalog`
 
 Make it an executable using the below command
-<br>`chmod +x bdcatalog-centos7-bluedata-hdp26-ambari-3.3.bin`
+<br>`chmod +x bdcatalog-centos7-bluedata-hdp26-ambari26-1.0.bin`
 
 Go to App Store in the EPIC GUI and click on <b>Refresh </b>button to bring the image in to App Store.
 
