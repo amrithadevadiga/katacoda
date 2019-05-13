@@ -18,12 +18,12 @@ RUN rm -f jce_policy-8.zip
 RUN yum install -y yum-utils createrepo mysql-server mysql-connector-java* postgresql-server python-pip krb5* ambari* ntp
 RUN pip install requests
 RUN mkdir -p /var/www/html/hdputils
-RUN wget http://public-repo-1.hortonworks.com/HDP/centos7/2.x/updates/2.6.4.0/HDP-2.6.4.0-centos7-rpm.tar.gz -P /root
-RUN wget http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos7/HDP-UTILS-1.1.0.21-centos7.tar.gz -P /root
-RUN tar xvzf /root/HDP-2.6.4.0-centos7-rpm.tar.gz -C /var/www/html
-RUN rm -rf /root/HDP-2.6.4.0-centos7-rpm.tar.gz
-RUN tar xvzf /root/HDP-UTILS-1.1.0.21-centos7.tar.gz -C /var/www/html/hdputils
-RUN rm -rf /root/HDP-UTILS-1.1.0.21-centos7.tar.gz
-RUN rm -rf /etc/yum.repos.d/ambari.repo
+#RUN wget http://public-repo-1.hortonworks.com/HDP/centos7/2.x/updates/2.6.4.0/HDP-2.6.4.0-centos7-rpm.tar.gz -P /root
+#RUN wget http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos7/HDP-UTILS-1.1.0.21-centos7.tar.gz -P /root
+#RUN tar xvzf /root/HDP-2.6.4.0-centos7-rpm.tar.gz -C /var/www/html
+#RUN rm -rf /root/HDP-2.6.4.0-centos7-rpm.tar.gz
+#RUN tar xvzf /root/HDP-UTILS-1.1.0.21-centos7.tar.gz -C /var/www/html/hdputils
+#RUN rm -rf /root/HDP-UTILS-1.1.0.21-centos7.tar.gz
+#RUN rm -rf /etc/yum.repos.d/ambari.repo
 
 
