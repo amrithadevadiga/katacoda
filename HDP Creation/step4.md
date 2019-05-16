@@ -37,14 +37,17 @@ Let's Look in to Startscript<br>
 `cat /root/HDP/ambari-26-setup/startscript`{{execute}}
 <br>
 <br>Start script will execute in each and every host when all host get created 
-<br>Cluster creation metadata section
-<br>Here we are using bdvcli utility to create information regarding node role, node fqdn , node distro_id and node group id
-<br>In blueprint templates section of HDP and HDP HA will generate the configuration structure for HDP cluster and HDP HA .
 <br>After creating the hosts ambari_server and agent gets register in each host
 <br>Then HiveOozie database gets deployed created.
 <br>Later setup Ambari server, register Ambari server with vagents and set up base url for HDP stack
-<br>After that main setup script gets executed
-<br>The main script in files contain code for Cluster creation, Activating licence ,Deploying zookeeper, hdfs and other services
+
+<br>Cluster creation metadata section :
+<br>Here we are using bdvcli utility to create information regarding node role, node fqdn , node distro_id and node group id
+
+<br>In blueprint templates section :
+<br>Here HDP and HDP HA will generate the configuration structure for HDP cluster and HDP HA .
+
+<br>The main script in files contain code for Cluster creation, Activating licence ,Deploying services
 
 
 <br>Remove the zip file from the folder
