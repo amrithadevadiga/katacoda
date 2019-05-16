@@ -4,5 +4,4 @@ Lets Copy the image file to our working directory<br>
 <br>`cp ~/test/Logo_HortonWorks.png ~/HDP`{{execute}}<br>
 <br><b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
 
-<br>Copy the json file from test directory to HDP
-<br>`cp ~/test/hdp26-ambari26.json ~/HDP`{{execute}}<br>
+
