@@ -36,10 +36,8 @@ Let's Look in to Startscript<br>
 `cat /root/HDP/ambari-26-setup/startscript`{{execute}}
 <br>
 <br>Start script will execute in each and every host when all host get created 
-
 <br>Cluster creation metadata section
 <br>Here we are using bdvcli utility to create information regarding node role, node fqdn , node distro_id and node group id
-
 <br>In blueprint templates section of HDP and HDP HA will generate the configuration structure for HDP cluster and HDP HA .
 <br>After creating the hosts ambari_server and agent gets register in each host
 <br>Then HiveOozie database gets deployed created.
@@ -51,14 +49,6 @@ Let's Look in to Startscript<br>
 <br>Remove the zip file from the folder
 <br>`rm -rf ambari-26-setup.zip`{{execute}}
 
-Task2:
-<br>When our image is ready to deploy in the EPIC Application Catalog, we need to include a picture that represents the image. For your reference, we have already created a .png file for your use.
-<br>`cp ~/test/Logo_HortonWorks.png ~/HDP`{{execute}}<br>
-<br><b>Logo.png file</b> includes a logo file (400px x 200px .png) to visually identify each application in the App Store
-
-Task3:
-<br>Copy the json file from test directory to HDP
-<br>`cp ~/test/hdp26-ambari26.json ~/HDP`{{execute}}<br>
 
 
 
