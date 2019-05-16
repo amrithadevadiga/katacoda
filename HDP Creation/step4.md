@@ -7,7 +7,7 @@ We have already referenced the files that are needed, all you would need to do i
 <br>It is always good to check what version of HDP you are using to understand the dependencies you may need setup in your base image.
 
 
-Task1: 
+
 <br>We need to add additional configuration files under the HDP directory. We have already made these files for you, to add them in, please execute the following commands:
 Execute the below command
 <br>`yum install wget -y`{{execute}}
@@ -26,7 +26,8 @@ Add the Configuration files using the below command(Due to space constraint in K
 <br><b>appjob</b> provides the information on the type of job to be launched and we can also add application specific jobs.<br>
 <br><b>Logging.sh</b> This provides the logging facilities for a catalog configuration bundle.<br> 
 <br><b>Utils.sh</b> contains utility functions defined which provides information on docker id, cpu share, memory status and fqdn of the current container.<br>
-<b>modify_host.py </b>While doing scaling up/down this code will get execute which will use modify_host.py file to scale up/down nodes for HDP cluster
+<br>
+<b>modify_host.py </b>While doing scaling up/down this code will get execute which will use modify_host.py file to scale up/down nodes for HDP cluster<br>
 <br>
 <b>setup_cluster.py</b> script is responsible for setting up CDH Cluster <br>
 <br><b>add_remove_node.py</b>  scripts is responsible for scaling up/down the nodes in CDH cluster<br>
