@@ -4,7 +4,7 @@ This directory contains all of the necessary files pre-created for standard serv
 You may change the name of this directory if desired.<br>
 
 Execute the below command to list the all Files in cdh5-cm-setup directory <br>
-`cd cdh5-cm-setup`{{execute}}<br>
+`ls cdh5-cm-setup`{{execute}}<br>
 
 <b>setup_cluster.py</b> script is responsible for setting up CDH Cluster <br>
 <br><b>add_remove_node.py</b>  scripts is responsible for scaling up/down the nodes in CDH cluster<br>
