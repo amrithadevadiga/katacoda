@@ -19,13 +19,11 @@ Execute the below command to list the all Files in cdh5-cm-setup directory <br>
 
 Let's Look in to Startscript<br>
 `cat startscript`{{execute}}
-
+<br>
 <br>Start script will execute in each and every host when all host get created 
-
 <br>After creating the hosts cloudera manager and agent gets register in each host
 <br>Then Mysql database gets deployed in cmserver role and also cloudera database will be created.
 <br>After that main setup script gets executed
-
-The main script in files contain code for Cluster creation, Activating licence ,Deploying zookeeper, hdfs and other services
+<br>The main script in files contain code for Cluster creation, Activating licence ,Deploying zookeeper, hdfs and other services
 
 
