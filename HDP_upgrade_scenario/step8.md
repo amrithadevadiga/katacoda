@@ -42,7 +42,8 @@ Let's Look in to Startscript<br>
 <br>Cluster creation metadata section :
 <br>Here we are using bdvcli utility to create information regarding node role, node fqdn , node distro_id and node group id
 
-<br>In blueprint templates section of HDP and HDP HA will generate the configuration structure for HDP cluster and HDP HA .
+<br>blueprint templates section :
+of HDP and HDP HA will generate the configuration structure for HDP cluster and HDP HA .
 
 <br>The main script in files contain code for Cluster creation, Activating licence ,Deploying  services
 
