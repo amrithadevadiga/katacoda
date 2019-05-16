@@ -40,8 +40,8 @@ Let's Look in to Startscript<br>
 <br>Later setup Ambari server, register Ambari server with vagents and set up base url for HDP stack
 
 <br>Cluster creation metadata section :
-<br>Here we are using bdvcli utility to create information regarding node role, node fqdn , node distro_id and node group id
+<br>Here we are using bdvcli utility to create information regarding node role, node fqdn , node distro_id and node group id<br>
 <br>blueprint templates section :
-of HDP and HDP HA will generate the configuration structure for HDP cluster and HDP HA .
+of HDP and HDP HA will generate the configuration structure for HDP cluster and HDP HA .<br>
 <br>The main script in files contain code for Cluster creation, Activating licence ,Deploying  services
 
