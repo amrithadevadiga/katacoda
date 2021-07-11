@@ -16,17 +16,18 @@ To view the content of the file, execute the following
 <li><strong>Identification</strong></li>
 <br>
 <b>Below is the example snippet for identification:</b>
-<br>
-"distro_id": "bluedata/cdh515_centos7x"<br>
-"label": {<br>
-  "name": ""name": "CDH 5.15.0 on 7x  with Cloudera Manager",<br>
-  "description": "CDH 5.15.0 with MRv1/YARN and HBase support. Includes Pig, Hive, Hue and Spark."<br>
-  },<br>
-"version": "1.7",<br>
-"epic_compatible_versions": ["3.4"],<br>
-"categories": [ "Hadoop", "HBase" ],<br>
 
-<br>
+<pre class="file">
+"distro_id": "bluedata/cdh515_centos7x"
+"label": {
+  "name": ""name": "CDH 5.15.0 on 7x  with Cloudera Manager",
+  "description": "CDH 5.15.0 with MRv1/YARN and HBase support. Includes Pig, Hive, Hue and Spark."
+  },
+"version": "1.7",
+"epic_compatible_versions": ["3.4"],
+"categories": [ "Hadoop", "HBase" ],
+</pre>
+
 <strong>distro_id </strong> is unique identifier for either a Catalog entry or a versioned set of Catalog entries.
 <br>
 <br>The <strong>label</strong> is a property contains the following parameters:<br>
@@ -48,17 +49,19 @@ Name and distro_id needs to be updated  based on the version of the CDH image to
 <li><strong>Components</strong></li>
 <br>
 <b>Below is the example snippet for components:</b>
-<br>
-"image": {<br>
+
+<pre class="file">
+"image": {
  "checksum": "65cd4ffd0cac3feec3e0719ae4f3dbcd",
-        "source_file": "bluedata-cdh5122_centos7x-centos7-2.0.tar.gz"<br>
-},<br>
-"setup_package": {<br>
+        "source_file": "bluedata-cdh5122_centos7x-centos7-2.0.tar.gz"
+},
+"setup_package": {
   "config_api_version": 7,
        <br> "checksum": "a7ea64f9b1de60ab9f87d76e2f571069",
-     <br>   "source_file": "cdh5-cm-setup.tgz"<br>
-},<br>
-<br>
+     <br>   "source_file": "cdh5-cm-setup.tgz"
+},
+</pre>
+
 <br><strong>image</strong>  is a property that identifies the location for the image used to launch virtual nodes for this Catalog entry. 
 <br>
 <br><strong>setup_package</strong>  is similar to the image property except for the configuration scripts package that runs inside the launched virtual node.
@@ -67,22 +70,22 @@ Name and distro_id needs to be updated  based on the version of the CDH image to
 <br>
 <li><strong>Services</strong></li><br>
 <b>Below is the example snippet for services:</b>
-<br>
-"services": [<br>
-  {<br>
-    "id": "hbase_master",<br>
-    "exported_service": "hbase",<br>
-    "label": {<br>
-      "name": "HMaster"<br>
-      },<br>
-    "endpoint" : {<br>
-      "url_scheme" : "http",<br>
-      "port" : "60010",<br>
-      "path" : "/",<br>
-      "is_dashboard" : true<br>
-      }<br>
-    },<br>
-    
+<pre class="file">
+"services": [
+  {
+    "id": "hbase_master",
+    "exported_service": "hbase",
+    "label": {
+      "name": "HMaster"
+      },
+    "endpoint" : {
+      "url_scheme" : "http",
+      "port" : "60010",
+      "path" : "/",
+      "is_dashboard" : true
+      }
+    },
+</pre>
    <br>
   In this example, services is a list of service objects.
 <br>The defined <strong>services</strong> will be referenced by other elements of this JSON file to determine which services are active on which nodes  within the cluster. <br>
@@ -90,16 +93,16 @@ Name and distro_id needs to be updated  based on the version of the CDH image to
 <li><strong>Node Roles</strong></li>
 
 <br><b>The example snippet for Node Roles:</b>
-<br>
-"node_roles": [<br>
-  {<br>
-    "id": "controller",<br>
-    "cardinality": "1",<br>
-    "anti_affinity_group_id": "CM",<br>
-    "min_cores": "4",<br>
-    "min_memory": "12288"<br>
-  },<br>
-  <br>
+<pre class="file">
+"node_roles": [
+  {
+    "id": "controller",
+    "cardinality": "1",
+    "anti_affinity_group_id": "CM",
+    "min_cores": "4",
+    "min_memory": "12288"
+  },
+</pre>
   
   In this example,<strong>node_roles</strong>  is a list of objects describing roles that may be deployed for this Catalog entry. Each role is a particular configuration instantiated from the entry's virtual node image and configured by the setup scripts<br>
 <li><strong>Configuration</strong></li>
